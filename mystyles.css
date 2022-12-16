@@ -1,0 +1,84 @@
+#banner img {
+    height: 140px;
+    width: 300px;
+    vertical-align: middle;
+}
+
+#banner {
+    color: #f6f2f0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    padding-left: 40px;
+}
+
+header {
+    display: none;
+}
+
+img {
+    width: 800px;
+}
+
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 380px;
+    background-color: #282a51;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav li a.active {
+    background-color: #5319da;
+    color: white;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.content {
+    margin-left:380px;
+    background-color: #373737;
+}
+
+
+.odd {
+    background-color: #769ce8;
+    
+}
+
+.even {
+    background-color: rgb(61, 68, 138);
+    color: lightgray;
+}
+
+.card {
+    margin-left: 25px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+
+article ul li {
+    list-style-image: url('../gatoricon-xs.png');
+}
